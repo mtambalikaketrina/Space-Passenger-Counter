@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Phoenix editor</title>
+        <link rel="stylesheet" href="styles.css" />  
+    </head>
+    <body onload="onPageLoaded()">
+        <img id="starsLeft" alt="stars" src="stars-left.svg" />
+        <div id="mainDiv">   
+        <img id="logo" alt="logo" src="phoenix-logo.svg" />
+            <div id="MainText">
+                <h2>Space Passengers</h2>
+            </div>
+            
+        <h2 id = "count-el">0 </h2>
+            <button id="increment-btn" onclick="increment()" > Add Passenger </button><br/>
+            <button id= "decrement-btn" onclick="decrement()">Remove Passenger</button><br/>
+            <button id="save-btn" onclick="save()">Save</button>
+            <h3 id="save-el">Previous Entries : </h3>
+            <script src="script.js"></script>       
+        </div>
+        
+        <img id="cloudLeftTop" alt="cloud" src="vector-top-left.png" />
+        <img id="cloudBottomRight" alt="cloud" src="vector-bottom-right.png" />
+        <img id="starsRight" alt="stars" src="stars-right.svg" />
+        <img
+            class="clouds"
+            alt="cloud"
+            style="z-index: 3; transform: translate(0px, -1.55909px)"
+            src="cloud1.svg" />
+        <img
+            class="clouds"
+            alt="cloud"
+            style="z-index: 6; transform: translate(0px, -2.33863px)"
+            src="cloud2.svg" />
+        <img
+            class="clouds"
+            alt="cloud"
+            style="z-index: 5; transform: translate(0px, -3.89772px)"
+            src="cloud3.svg" />
+        <img
+            class="clouds"
+            alt="cloud"
+            style="z-index: 6; transform: translate(0px, -3.89772px)"
+            src="cloud4.svg" />
+        <div class="night">
+            <div class="shooting_star">
+                <div class="shooting_star" />
+            </div>
+        </div>
+        <div class="night">
+            <div class="shooting_star">
+                <div class="shooting_star" />
+            </div>
+        </div>
+        <div class="night">
+            <div class="shooting_star">
+                <div class="shooting_star" />
+            </div>
+        </div>
+    </body>
+</html>
